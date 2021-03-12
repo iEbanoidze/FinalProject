@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FinalProject';
+  searchWord : string = "";
+  searchInput : string = "";
+
+  searchData(){
+this.searchWord = this.searchInput;
+  }
 }
