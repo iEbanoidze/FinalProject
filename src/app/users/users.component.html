@@ -1,4 +1,7 @@
-<div class="container"> 
+<div *ngIf="showWarning" class="alert alert-warning" role="alert">
+    მონაცემიი ვერ მოიძებნა
+  </div>
+<div *ngIf="!showWarning" class="container"> 
     <table class="table">
      <thead>
          <tr>
