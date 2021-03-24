@@ -1,0 +1,20 @@
+<p>Date is: {{currentDate | date}}</p>
+<p>Date is: {{currentDate | date | uppercase}}</p>
+<p>Date is: {{oldDate | date: 'MM/dd/yyyy' }}</p>
+<p>Date is: {{oldDate | date: 'MM-dd-yyyy' }}</p>
+<p>Date is: {{oldDate | date: 'dd/MM/yyyy' }}</p>
+<p>Date is: {{oldDate | date: 'shortDate' }}</p>
+<p>Date is: {{oldDate | date: 'fullDate' }}</p>
+<p>Date is: {{oldDate | date: 'fullDate' | uppercase }}</p>
+
+<p>Date is: {{currentDate | dateFormat : false}}</p>
+<p>Date is: {{currentDate | dateFormat : true}}</p>
+<p>Date is: {{currentDate | dateFormat}}</p>
+
+<p>Money is: {{amount | currency: 'GEL' : 'Georgian Lari ' }}</p>
+
+<p>Word is: {{word | uppercase}}</p>
+
+<p>Number was: {{num}}; Number is: {{num |myPipe}}</p>
+
+<p>Number was: {{num}}</p>
